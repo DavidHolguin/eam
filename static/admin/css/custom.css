@@ -30,3 +30,176 @@ pre::-webkit-scrollbar-thumb {
 pre::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
+/* Estilos para el admin de Estudiantes */
+.field-get_estado span {
+    display: inline-block;
+    min-width: 100px;
+    text-align: center;
+}
+
+/* Mejoras generales para el admin */
+.field-total_referidos {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Estilos para campos relacionados */
+.field-get_programa,
+.field-get_referido_por {
+    max-width: 300px;
+    word-wrap: break-word;
+}
+
+/* Estilos para el nombre y email */
+.field-get_nombre_completo {
+    font-weight: bold;
+}
+
+.field-get_email {
+    font-family: monospace;
+}
+
+/* Estilos para el admin de Facultad y ProgramaAcademico */
+
+/* Estilos para JSONField formateado */
+.field-plan_estudios_formatted pre,
+.field-caracteristicas_formatted pre {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 15px;
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #333;
+}
+
+/* Estilos para el estado del registro */
+.registro-activo {
+    background-color: #28a745;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+/* Estilos para campos relacionados */
+.field-get_facultad_con_color,
+.field-get_director,
+.field-get_decano {
+    font-weight: 500;
+}
+
+/* Estilos para el color de la facultad */
+.field-display_color span {
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Estilos para números y contadores */
+.field-total_programas {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Estilos para scroll en campos JSON */
+pre::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+pre::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+pre::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+pre::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Estilos para el admin de Persona */
+
+/* Estilos generales */
+.field-rol_badge span {
+    display: inline-block;
+    min-width: 100px;
+    text-align: center;
+}
+
+.field-estado_activo {
+    text-align: center;
+}
+
+/* Estilos para campos de texto */
+.field-telefono_formato,
+.field-email_institucional {
+    font-family: monospace;
+}
+
+/* Estilos para campos numéricos */
+.field-edad,
+.field-tiempo_vinculacion {
+    text-align: center;
+    font-weight: 500;
+}
+
+/* Estilos para metadata formateada */
+.field-metadata_formatted pre {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 15px;
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', monospace;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #333;
+}
+
+/* Estilos para el scroll en campos pre */
+pre::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+pre::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+pre::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+pre::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Estilos para la vista de lista */
+#changelist-form .results {
+    margin-top: 20px;
+}
+
+/* Estilos para los campos de foto */
+.field-foto_preview {
+    text-align: center;
+}
+
+.field-foto_preview_large {
+    margin: 15px 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .field-foto_preview img,
+    .field-foto_preview div {
+        width: 30px;
+        height: 30px;
+    }
+}
