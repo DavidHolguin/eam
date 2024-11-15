@@ -25,4 +25,5 @@ urlpatterns = [
     path('api/', include('crm.urls')),
     path('api/', include('usuarios.urls')),
     path('api/', include('estudiantes.urls')),
+    path('api/', include('team.urls')),
 ]
