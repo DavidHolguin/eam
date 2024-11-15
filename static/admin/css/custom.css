@@ -1,0 +1,32 @@
+/* Estilos para campos JSON en el admin */
+.field-display_requisitos pre,
+.field-display_seguimiento pre {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 10px;
+    max-height: 100px;
+    overflow-y: auto;
+    font-family: monospace;
+    font-size: 13px;
+    white-space: pre-wrap;
+}
+
+/* Estilos para el scroll */
+pre::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+pre::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+pre::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+pre::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
