@@ -24,6 +24,7 @@ INSTALLED_APPS = [
     'universidad',
     'oferta_academica',
     'crm',
+    'team',
     'usuarios',
     'estudiantes',
     # Third party apps
